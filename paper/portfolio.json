@@ -1,0 +1,27 @@
+{
+  "simulation_start": "2026-06-10",
+  "day": 1,
+  "starting_cash": 1000.00,
+  "cash": 501.57,
+  "spy_baseline": 737.00,
+  "positions": [
+    {
+      "symbol": "XOM",
+      "shares": 1.67,
+      "avg_cost": 149.60,
+      "stop": 142.12,
+      "target": 165.00,
+      "entry_date": "2026-06-10",
+      "thesis": "ExxonMobil is the direct beneficiary of the US-Iran military exchange, which has driven Brent crude from ~$70 to $96+ per barrel. With the Strait of Hormuz at risk and supply disruption fears elevated, XOM upstream earnings will surge; the stock is already outperforming (+1.1%) on a broad down day, confirming relative strength. The geopolitical risk premium is likely to remain embedded for at least several days as the conflict shows no sign of de-escalating."
+    },
+    {
+      "symbol": "VST",
+      "shares": 1.55,
+      "avg_cost": 160.39,
+      "stop": 152.37,
+      "target": 210.00,
+      "entry_date": "2026-06-10",
+      "thesis": "Vistra's nuclear and gas baseload assets are uniquely positioned to capture the AI data center power demand boom via signed 20-year PPAs with Meta and AWS; Q1 2026 revenue beat consensus with EBITDA guidance of $6.8-7.6B reaffirmed. At $160 versus analyst median targets of $230-293, the stock is significantly undervalued, and the current energy supply shock from geopolitical tensions further elevates power prices, adding a near-term catalyst to a strong structural thesis."
+    }
+  ]
+}
