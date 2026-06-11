@@ -1,0 +1,27 @@
+{
+  "starting_cash": 1000.00,
+  "cash": 501.31,
+  "simulation_start": "2026-06-11",
+  "simulation_day": 1,
+  "spy_entry": 734.54,
+  "positions": [
+    {
+      "symbol": "MRVL",
+      "shares": 0.86,
+      "avg_cost": 290.60,
+      "entry_date": "2026-06-11",
+      "stop": 276.07,
+      "target": 319.66,
+      "thesis": "S&P 500 index inclusion effective June 22 forces passive-fund buying over the next 11 days. Jensen Huang publicly named MRVL 'next trillion-dollar company'; Q1 FY2026 earnings beat at $2.4B revenue with strong data-center growth. Pre-inclusion price pressure from index-rebalancing flows typically persists until the add date."
+    },
+    {
+      "symbol": "XOM",
+      "shares": 1.65,
+      "avg_cost": 150.77,
+      "entry_date": "2026-06-11",
+      "stop": 143.23,
+      "target": 164.34,
+      "thesis": "WTI crude above $93/barrel driven by 100+ days of US-Iran conflict threatening Strait of Hormuz closure; ExxonMobil's own SVP warned oil could reach $160/barrel on tightening inventories. Exxon's integrated model and production scale make it the cleanest direct equity expression of sustained elevated oil prices, with analyst consensus target of $169.91."
+    }
+  ]
+}
