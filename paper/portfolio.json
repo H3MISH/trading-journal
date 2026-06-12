@@ -1,0 +1,19 @@
+{
+  "starting_capital": 1000.00,
+  "cash": 750.03,
+  "simulation_start": "2026-06-12",
+  "day": 1,
+  "total_days": 5,
+  "spy_baseline": 737.76,
+  "positions": [
+    {
+      "symbol": "AMD",
+      "shares": 0.4852,
+      "avg_cost": 515.31,
+      "entry_date": "2026-06-12",
+      "stop": 489.54,
+      "target": 570.00,
+      "thesis": "AMD received a Citi upgrade to Buy ($575 PT) on June 12 and announced a £2B UK AI infrastructure investment over five years, providing fresh stock-specific catalysts on top of broader AI server CPU demand. Semiconductor sector is recovering from the June 6 AVGO-guidance selloff; multiple Wall Street analysts have lifted AMD targets to $600-665. The Citi upgrade from Neutral represents institutional re-rating momentum."
+    }
+  ]
+}
