@@ -1,0 +1,38 @@
+{
+  "starting_capital": 1000.00,
+  "cash": 250.14,
+  "simulation_start": "2026-06-12",
+  "day": 2,
+  "total_days": 5,
+  "spy_baseline": 737.76,
+  "continuity_note": "Continuation of the simulation begun 2026-06-12 (Day 1, AMD entry). Latest readable state was found on branch claude/modest-ride-chjabw; no `main` branch exists in this repo and three prior runs each created a fresh Day-1 on separate branches (06-10 XOM+VST, 06-11 MRVL+XOM, 06-12 AMD) — i.e. the simulation was reset by mistake on each prior run. This run does NOT reset: it continues the most recent state (chjabw) as Day 2 and commits to the harness-assigned branch claude/sharp-hawking-kpz1jk because pushing to main/other branches is not permitted and main does not exist.",
+  "positions": [
+    {
+      "symbol": "AMD",
+      "shares": 0.4852,
+      "avg_cost": 515.31,
+      "entry_date": "2026-06-12",
+      "stop": 489.54,
+      "target": 570.00,
+      "thesis": "AMD received a Citi upgrade to Buy ($575 PT) on June 12 and announced a £2B UK AI infrastructure investment over five years, providing fresh stock-specific catalysts on top of broader AI server CPU demand. Semiconductor sector is recovering from the June 6 AVGO-guidance selloff; multiple Wall Street analysts have lifted AMD targets to $600-665. The Citi upgrade from Neutral represents institutional re-rating momentum."
+    },
+    {
+      "symbol": "VST",
+      "shares": 1.6140,
+      "avg_cost": 154.87,
+      "entry_date": "2026-06-15",
+      "stop": 147.13,
+      "target": 175.00,
+      "thesis": "Vistra is a pure AI-power demand play: its nuclear and gas baseload fleet supplies data-center load growth via long-term PPAs, and analysts rate it Strong Buy with a ~$225 median target. On June 15 VST rose ~4.5% even as oil collapsed to ~$80 on the US-Iran peace deal, confirming the stock trades on electricity/AI demand rather than the oil complex and providing diversification away from my semiconductor exposure. Relative strength on a risk-on day with a structural multi-year tailwind makes this a momentum-plus-thesis entry."
+    },
+    {
+      "symbol": "MRVL",
+      "shares": 0.8600,
+      "avg_cost": 290.60,
+      "entry_date": "2026-06-15",
+      "stop": 276.07,
+      "target": 319.66,
+      "thesis": "Marvell joins the S&P 500 effective June 22, 2026, forcing index/passive funds to buy the stock ahead of the add date — a mechanical demand catalyst that falls squarely inside this simulation's window. MRVL cleared the profitability hurdle on AI data-center networking strength and is up ~210% YTD. The index-inclusion bid is largely independent of fundamental sector beta and provides near-term support; the primary risk is a 'sell-the-news' reversal on June 22, after this run ends."
+    }
+  ]
+}
