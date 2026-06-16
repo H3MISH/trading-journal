@@ -1,0 +1,38 @@
+{
+  "starting_capital": 1000.00,
+  "cash": 250.14,
+  "simulation_start": "2026-06-12",
+  "day": 3,
+  "total_days": 5,
+  "spy_baseline": 737.76,
+  "continuity_note": "Continuation of the simulation begun 2026-06-12. No `main` branch exists in this repo; prior runs each ran on a separate harness-assigned branch. Day 1 (06-12) = AMD entry on branch modest-ride-chjabw; Day 2 (06-15) = VST+MRVL entries on branch sharp-hawking-kpz1jk. This run (Day 3, 06-16) restored the full Day-2 state from sharp-hawking-kpz1jk and continues it WITHOUT resetting — starting capital, positions, history and SPY baseline ($737.76) all preserved. Committed to the harness-assigned branch claude/sharp-hawking-fnb78g because pushing to main/other branches is not permitted and main does not exist. Note: Day 5 (close-all) is Thursday 06-18, not Friday, because markets are closed Fri 06-19 (Juneteenth).",
+  "positions": [
+    {
+      "symbol": "AMD",
+      "shares": 0.4852,
+      "avg_cost": 515.31,
+      "entry_date": "2026-06-12",
+      "stop": 520.00,
+      "target": 570.00,
+      "thesis": "AMD received a Citi upgrade to Buy ($575 PT) on June 12 plus a £2B UK AI infrastructure investment; multiple analysts hold $600-665 targets. Position is +4.5% and near its $547 all-time high. Stop RAISED on Day 3 from $489.54 to $520.00 (below today's intraday low ~$530) to lock in the gain into the final two sessions while leaving room toward the $570 target."
+    },
+    {
+      "symbol": "VST",
+      "shares": 1.6140,
+      "avg_cost": 154.87,
+      "entry_date": "2026-06-15",
+      "stop": 147.13,
+      "target": 175.00,
+      "thesis": "Vistra is a pure AI-power demand play: nuclear/gas baseload feeding data-center load via long-term PPAs, Strong Buy with a ~$225 median target. It rose ~4.5% on Day 2 even as oil collapsed, confirming it trades on electricity/AI demand and diversifies away from my semiconductor exposure. Thesis intact; holding original -5% stop."
+    },
+    {
+      "symbol": "MRVL",
+      "shares": 0.8600,
+      "avg_cost": 290.60,
+      "entry_date": "2026-06-15",
+      "stop": 276.07,
+      "target": 319.66,
+      "thesis": "Marvell joins the S&P 500 effective June 22, forcing mechanical passive buying. Position is +2% vs entry after a strong Day-2 close (~$308.88), pulling back ~4% on Day 3 amid a CFO resignation (effective 06-15) plus a $65M outgoing-CFO share sale and a one-day 'chip momentum snap.' The mechanical index-inclusion catalyst is unchanged (though it lands 06-22, after this run's Day-5 close on 06-18). Holding above the original -5% stop; risk flagged and monitored."
+    }
+  ]
+}
