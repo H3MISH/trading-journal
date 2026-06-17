@@ -1,0 +1,45 @@
+{
+  "starting_capital": 1000.00,
+  "cash": 741.61,
+  "simulation_start": "2026-06-12",
+  "day": 4,
+  "total_days": 5,
+  "spy_baseline": 737.76,
+  "realized_pnl_to_date": -8.48,
+  "continuity_note": "Continuation of the simulation begun 2026-06-12. No `main` branch exists in this repo; every prior run was forced onto a separate harness-assigned branch, which is why earlier runs appeared to 'reset' (06-10, 06-11 were abandoned Day-1s before the canonical run started 06-12). Canonical lineage: Day 1 (06-12, AMD entry) = branch modest-ride-chjabw; Day 2 (06-15, +VST +MRVL) = sharp-hawking-kpz1jk; Day 3 (06-16, hold all, AMD stop raised to $520) = sharp-hawking-fnb78g. This run (Day 4, 06-17) restored the full Day-3 state from sharp-hawking-fnb78g and continues WITHOUT resetting (starting capital, history, SPY baseline $737.76 all preserved). Committed to the harness-assigned branch claude/sharp-hawking-jmolam because main does not exist and pushing elsewhere is not permitted. Day 4 actions: AMD stopped out at $520; MRVL exited on broken thesis; VST held (stop raised to $155). Day 5 (close-all) = Thu 06-18; Fri 06-19 is the Juneteenth holiday.",
+  "positions": [
+    {
+      "symbol": "VST",
+      "shares": 1.6140,
+      "avg_cost": 154.87,
+      "entry_date": "2026-06-15",
+      "stop": 155.00,
+      "target": 175.00,
+      "thesis": "Vistra is a pure AI-power demand play: nuclear/gas baseload feeding data-center load via long-term PPAs, Strong Buy with a ~$225 median target. On Day 4 (06-17) it traded ~$161 (+3.9% vs $154.87 entry), showing clear relative strength on a risk-off day while semiconductors sold off hard (SOXX -5.92% on 06-16) - exactly the diversification-away-from-semis thesis working. Held into the final session; stop RAISED from $147.13 to $155.00 (just above breakeven) to lock in a non-loss against an overnight gap before the Day-5 forced close."
+    }
+  ],
+  "closed_positions": [
+    {
+      "symbol": "AMD",
+      "shares": 0.4852,
+      "avg_cost": 515.31,
+      "entry_date": "2026-06-12",
+      "exit_date": "2026-06-17",
+      "exit_price": 519.48,
+      "exit_reason": "STOP HIT ($520.00) - AMD traded below the raised $520 stop on 06-17 (intraday low ~$507.25, prev close ~$507.29). Stop is non-discretionary; exited despite an intraday rebound to +4.5% on the Rackspace 30MW AI-compute deal and a Bernstein PT raise to $600.",
+      "realized_pnl": 2.02,
+      "realized_pct": 0.81
+    },
+    {
+      "symbol": "MRVL",
+      "shares": 0.8600,
+      "avg_cost": 290.60,
+      "entry_date": "2026-06-15",
+      "exit_date": "2026-06-17",
+      "exit_price": 278.39,
+      "exit_reason": "THESIS BROKEN - decisive ~10% break below recent range to $278.67 on a broad semiconductor selloff, compounding the 06-15 CFO resignation and ~$65M outgoing-CFO insider sale. The S&P 500 index-inclusion catalyst (06-22) falls after the Day-5 close, so the reason to hold no longer exists within the window. Exited on broken thesis though the $276.07 stop was not quite hit (day low $278.13).",
+      "realized_pnl": -10.50,
+      "realized_pct": -4.20
+    }
+  ]
+}
