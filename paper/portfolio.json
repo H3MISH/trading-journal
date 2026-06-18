@@ -1,0 +1,50 @@
+{
+  "starting_capital": 1000.00,
+  "cash": 1000.24,
+  "simulation_start": "2026-06-12",
+  "day": 5,
+  "total_days": 5,
+  "simulation_complete": true,
+  "spy_baseline": 737.76,
+  "spy_final": 753.50,
+  "final_portfolio_value": 1000.24,
+  "total_return_pct": 0.02,
+  "realized_pnl_total": 0.19,
+  "continuity_note": "FINAL DAY (Day 5 of 5, 2026-06-18 — forced close-all). Continuation of the canonical simulation begun 2026-06-12. No `main` branch exists in this repo; every prior run was forced onto a separate harness-assigned branch, which is why earlier runs appeared to 'reset'. Canonical lineage: Day 1 (06-12, AMD entry) = modest-ride-chjabw; Day 2 (06-15, +VST +MRVL) = sharp-hawking-kpz1jk; Day 3 (06-16, hold all, AMD stop raised to $520) = sharp-hawking-fnb78g; Day 4 (06-17, AMD stopped out, MRVL thesis-exit, VST held + stop raised to $155) = sharp-hawking-jmolam. This run (Day 5, 06-18) restored the full Day-4 state from sharp-hawking-jmolam and continued WITHOUT resetting (starting capital, full trade history, SPY baseline $737.76 all preserved). Committed to harness-assigned branch claude/sharp-hawking-9pc40s because main does not exist and pushing elsewhere is not permitted. Day 5 action: closed the final position VST at ~$160.24 (raw $160.40 x 0.999 slip) for +$8.67. All positions now flat; simulation ends 100% in cash at $1,000.24 (+0.02% vs $1,000 start).",
+  "positions": [],
+  "closed_positions": [
+    {
+      "symbol": "AMD",
+      "shares": 0.4852,
+      "avg_cost": 515.31,
+      "entry_date": "2026-06-12",
+      "exit_date": "2026-06-17",
+      "exit_price": 519.48,
+      "exit_reason": "STOP HIT ($520.00) - AMD traded below the raised $520 stop on 06-17 (intraday low ~$507.25) before a dip-buying rebound to +4.5% on the Rackspace 30MW AI-compute deal and a Bernstein PT raise to $600. Stop is non-discretionary; honored it.",
+      "realized_pnl": 2.02,
+      "realized_pct": 0.81
+    },
+    {
+      "symbol": "MRVL",
+      "shares": 0.8600,
+      "avg_cost": 290.60,
+      "entry_date": "2026-06-15",
+      "exit_date": "2026-06-17",
+      "exit_price": 278.39,
+      "exit_reason": "THESIS BROKEN - decisive ~10% break below recent range to $278.67 on a broad semiconductor selloff (SOXX -5.92% on 06-16), compounding the 06-15 CFO resignation and ~$65M outgoing-CFO insider sale. The only bull catalyst (S&P 500 inclusion 06-22) falls after the Day-5 close. Exited above the $276.07 stop per the thesis-broken rule.",
+      "realized_pnl": -10.50,
+      "realized_pct": -4.20
+    },
+    {
+      "symbol": "VST",
+      "shares": 1.6140,
+      "avg_cost": 154.87,
+      "entry_date": "2026-06-15",
+      "exit_date": "2026-06-18",
+      "exit_price": 160.24,
+      "exit_reason": "DAY-5 FORCED CLOSE-ALL. VST was the book's standout diversifier: a pure AI-power demand play (nuclear/gas baseload feeding data centers via long-term PPAs; the KKR-led $10B Helix Digital Infrastructure venture named VST anchor investor / preferred power provider on 06-11). It held relative strength through the 06-16/06-17 semiconductor correction. Thesis fully intact at the close; sold only because the simulation window ended. Raw quote $160.40 x 0.999 slippage = $160.24 fill; Yahoo/Google Finance, June 18 2026 (day range $157.30-$162.40).",
+      "realized_pnl": 8.67,
+      "realized_pct": 3.47
+    }
+  ]
+}
