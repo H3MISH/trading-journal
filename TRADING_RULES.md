@@ -18,6 +18,20 @@ These are not suggestions. If a rule blocks a trade, the trade does not happen.
 - **Max $50 risked per trade proposal.** Risk = full position cost for an equity buy
   (a stock can go to zero), not a stop-distance calculation.
 - One open proposal at a time. Do not stack proposals while one is pending approval.
+- **This cap governs agent proposals only.** It is not a limit on what the human may do
+  with their own account. A user-placed position larger than $50 is not a rule violation
+  and is not the agent's to correct.
+
+## Hands off anything the agent did not place
+
+- **Never cancel, modify, or close an order or position the agent did not itself propose
+  and receive approval for.** If a position looks wrong, oversized, or unexplained, report
+  it and ask — do not act on it.
+- Check `placed_agent` before reasoning about an order's origin. Assume a user-placed
+  order is intentional until the human says otherwise.
+- Before proposing, check available buying power. Cash committed to existing positions is
+  not available, and the drawdown circuit breaker will not catch this — value converted
+  into shares is not a loss, but it is also not spendable.
 
 ## Approval — the hard gate
 
